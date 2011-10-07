@@ -2,8 +2,11 @@ todolist="$HOME/.reminders"
 
 todobase () {
 
-	if [ -f $todolist -ne 1 ]
+	if [ -f $todolist ]
+
 	then
+		# Exists
+	else
 		touch $todolist
 	fi	
 
