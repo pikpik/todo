@@ -1,0 +1,54 @@
+To Do
+
+1.0
+
+By pikpik
+
+
+Description
+
+	A simple To Do list, for the shell.
+
+
+Usage
+
+	todo
+
+	Prints a listing of reminders.
+
+
+	todo [args]
+
+	Appends a reminder to the list.
+
+
+	did [args]
+
+	Removes a reminder with text containing "args."
+
+
+Requirements
+
+	The Almquist Shell
+
+
+Installation
+
+	Feel free to adjust paths to your liking.
+
+
+	Append the following to ~/.profile:
+
+	. $HOME/todo.sh
+
+
+	If necessary,
+
+	touch ~/.reminders
+
+	chmod u+rw ~/.reminders
+
+
+License
+
+	BSD
